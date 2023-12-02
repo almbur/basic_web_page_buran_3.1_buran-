@@ -1,0 +1,137 @@
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .product-details img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .product-details h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .product-details p {
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  
+  .product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .product-card p {
+    font-size: 16px;
+    color: #555;
+  }
+  /* About.css */
+.about {
+  text-align: center;
+  padding: 20px;
+  background-color: #e0e0e0;
+}
+
+.about h2 {
+  color: #333;
+}
+
+.about p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.about strong {
+  color: #2196F3; /* Blue color for strong text */
+}
+
+.about .contact-section {
+  background-color: #FFF; /* White background for contact section */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about .address-section {
+  background-color: #FFC107; /* Yellow color for address section */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about .concept-section {
+  background-color: #E91E63; /* Pink color for concept section */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+  /* Home.css */
+.home {
+  text-align: center;
+  padding: 50px;
+  background-color: #2196F3; /* Blue background color */
+  color: #fff; /* White text color */
+}
+
+.home h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.home .highlight {
+  color: #FFC107; /* Yellow highlight color */
+  font-weight: bold;
+}
+
+.explore-button {
+  background-color: #FF9800; /* Orange button color */
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.explore-button:hover {
+  background-color: #FFC107; /* Lighter orange on hover */
+}
