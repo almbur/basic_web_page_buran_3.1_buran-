@@ -1,0 +1,23 @@
+.contact {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .contact h2 {
+    color: #333;
+  }
+  
+  .contact p {
+    margin-bottom: 20px;
+  }
+  
+  .contact-section,
+  .address-section {
+    margin-bottom: 15px;
+  }
+  
+  .contact-section strong,
+  .address-section strong {
+    display: block;
+    margin-bottom: 5px;
+  }

@@ -7,6 +7,7 @@ import ProductList from './components/ProductList';
 import ProductDetails from './components/ProductDetails';
 import Home from './components/Home'; // Import the new Home component
 import About from './components/About'; // Import the new About component
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<Home />} /> {/* New route for Home component */}
           <Route path="/products" element={<ProductList />} />
           <Route path="/about" element={<About />} /> {/* New route for About component */}
+          <Route path="/contact" element={<Contact />} /> {/* New route for Contact component */}
           <Route path="/product/:productId" element={<ProductDetails />} />
         </Routes>
       </div>
