@@ -1,6 +1,9 @@
 .contact {
     padding: 20px;
     text-align: left;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
   }
   
   .contact h2 {
@@ -20,4 +23,6 @@
   .address-section strong {
     display: block;
     margin-bottom: 5px;
+    color: #555;
   }
+  
